@@ -3,6 +3,7 @@ const env = {
   username: 'root',
   password: 'Xablau@1992',
   host: 'localhost',
-  dialect: 'mysql'
+  // dialect: 'mysql'
+  dialect: 'postgres'
 }
 module.exports = env

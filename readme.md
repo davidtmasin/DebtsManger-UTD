@@ -27,6 +27,12 @@ ou
   npm install express sequelize mysql2 cors
 ```
 
+**Estou testando o uso do banco Postgres para poder usar no Heroku**
+
+```
+  yarn add pg
+```
+
 Para executar o seu projeto criado em Node.JS, utilize:
 
 ```
@@ -77,26 +83,31 @@ ou
 A instalação das dependências do projeto React foram realizadas através dos seguintes comandos:
 
 - Instalação do recurso que trata do roteamento dentro do React
+
 ```
   yarn add react-router-dom@5
 ```
 
 - Instalação do styled-components para criação de um estilo global para o projeto
+
 ```
   yarn add styled-components
 ```
 
 - Instalação da biblioteca de ícones do React
+
 ```
   yarn add react-icons
 ```
 
 - Instalação do axios para auxiliar na integração do frontend com o backend
+
 ```
   yarn add axios
 ```
 
 - Instalação dos recursos do material-ui
+
 ```
   yarn add @mui/material @mui/material/core @emotion/lab @emotion/icons @mui/styled-engine-sc
 ```
