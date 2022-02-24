@@ -2,7 +2,7 @@
 
 ### Projeto Final do curso de Desenvolvimento de Interfaces Gráficas com Javascript da UTD
 
-Neste projeto, construímos separadamente o **Backend** e o **Frontend** da nossa aplicação. Neste primeiro, foi utilizado o **Node.JS** para implementar toda a regra de negócio que está por traz da nossa aplicação final e tivemos o apoio do banco de dado **MySQL**, para armazenar as informações que forem sendo geradas a partir da interação do usuário. Já em nosso frontend, utilizamos o **React.JS** para projetar todo o visual, o roteamento entre as páginas, Snackbars, etc.
+Neste projeto, construímos separadamente o **Backend** e o **Frontend** da nossa aplicação. Neste primeiro, foi utilizado o **Node.JS** para implementar toda a regra de negócio que está por traz da nossa aplicação final e tivemos o apoio do banco de dados **MySQL**, para armazenar as informações que forem sendo geradas a partir da interação do usuário. Já em nosso frontend, utilizamos o **React.JS** para projetar todo o visual, o roteamento entre as páginas, Snackbars, etc.
 
 A título de informação, na parte do **Backend**, foram utilizadas as seguintes dependências (destacarei apenas aquelas que foram necessárias ao projeto):
 
@@ -46,7 +46,6 @@ Já no **Frontend**, utilizamos as seguintes depedências (destacarei apenas aqu
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-router-dom": "5",
-    "react-scripts": "^5.0.0",
     "styled-components": "^5.3.3"
   }
 ```
@@ -73,4 +72,31 @@ ou
 
 ```
   npm start
+```
+
+A instalação das dependências do projeto React foram realizadas através dos seguintes comandos:
+
+- Instalação do recurso que trata do roteamento dentro do React
+```
+  yarn add react-router-dom@5
+```
+
+- Instalação do styled-components para criação de um estilo global para o projeto
+```
+  yarn add styled-components
+```
+
+- Instalação da bibliotecas de ícones do React
+```
+  yarn add react-icons
+```
+
+- Instalação do axios para auxiliar na integração do frontend com o backend
+```
+  yarn add axios
+```
+
+- Instalação dos recursos do material-ui
+```
+  yarn add @mui/material @mui/material/core @emotion/lab @emotion/icons @mui/styled-engine-sc
 ```
