@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  background: rgb(6, 224, 89);
+}
+
+header figure {
+  margin-left: 1rem;
+  padding-right: 2rem;
+}
+
+header figure img {
+  width: 70px;
+}
+
+header #title-header {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 2.5rem;
+  color: #fff;
+}

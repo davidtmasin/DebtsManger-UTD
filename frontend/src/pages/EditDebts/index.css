@@ -1,0 +1,21 @@
+.container.edit {
+  margin-bottom: 40rem;
+}
+
+#idField {
+  color: red;
+  font-weight: 600;
+}
+
+#descriptionField,
+#valueField,
+#payDayField {
+  font-weight: bold;
+}
+
+#infoFooter {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+  font-style: italic;
+}

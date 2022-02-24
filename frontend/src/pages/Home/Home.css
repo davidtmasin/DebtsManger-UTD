@@ -1,0 +1,57 @@
+.content.home {
+  padding-top: 2rem;
+  width: 800px;
+}
+
+.content #titleHome {
+  margin-top: 2rem;
+  min-width: 600px;
+  font-size: 2.6rem;
+}
+
+#btnEdit {
+  background: rgb(115, 179, 32);
+  font-size: 1rem;
+  transition: all 0.6s ease;
+}
+
+#btnDelete {
+  background: rgb(200, 43, 43);
+  font-size: 1rem;
+  transition: all 0.6s ease;
+}
+
+#btnEdit:focus,
+#btnEdit:hover {
+  cursor: pointer;
+  background: rgb(2, 66, 0);
+}
+
+#btnDelete:focus,
+#btnDelete:hover {
+  cursor: pointer;
+  background: rgb(82, 1, 1);
+}
+
+table {
+  margin-bottom: 5rem;
+}
+
+tfoot tr {
+  background: rgba(207, 43, 2, 0.664);
+  transition: background ease 0.5s;
+}
+
+tfoot tr:hover {
+  background: rgba(207, 43, 2, 0.993);
+}
+
+tfoot tr td {
+  padding: 10px 0;
+}
+
+#tbFooter {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}

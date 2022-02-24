@@ -1,0 +1,15 @@
+.container.add {
+  margin-bottom: 40rem;
+}
+
+#idField::placeholder {
+  color: red;
+  font-weight: 500;
+}
+
+#infoFooter {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+  font-style: italic;
+}
