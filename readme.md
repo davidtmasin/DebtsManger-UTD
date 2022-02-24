@@ -86,7 +86,7 @@ A instalação das dependências do projeto React foram realizadas através dos 
   yarn add styled-components
 ```
 
-- Instalação da bibliotecas de ícones do React
+- Instalação da biblioteca de ícones do React
 ```
   yarn add react-icons
 ```
